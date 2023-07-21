@@ -1,0 +1,29 @@
+{
+  "name": "mem-verifier",
+  "version": "0.0.1",
+  "description": "MEM transaction verifier",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/mem-verifier.git"
+  },
+  "keywords": [
+    "MEM"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentldotland/mem-verifier/issues"
+  },
+  "homepage": "https://github.com/decentldotland/mem-verifier#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "kwil": "^3.2.0"
+  }
+}
